@@ -1,12 +1,12 @@
 ---
-title: 📊 Learn Data Science
-linkTitle: Data Science
+title: 📊 Motor and motion control
+linkTitle: Motor
 summary: An example of using Wowchemy's Book layout for publishing online courses.
-date: '2021-01-24'
-type: book
+date: '2023-02-28'
+type: course
 ---
 
-{{< figure src="featured.jpg" >}}
+
 
 {{< toc hide_on="xl" >}}
 
