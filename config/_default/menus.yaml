@@ -7,9 +7,6 @@ main:
   - name: PI
     url: '#about'
     weight: 10
-  - name: CoursePage
-    url: courses/
-    weight: 15
   - name: Courses
     url: '#accomplishments'
     weight: 15
@@ -28,3 +25,6 @@ main:
   - name: Contact
     url: '#contact'
     weight: 70
+  - name: CoursePage
+    url: courses/
+    weight: 90

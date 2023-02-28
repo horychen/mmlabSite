@@ -14,18 +14,18 @@ font_size: L
 
 site_type: Person
 local_business_type: ''
-org_name: ''
+org_name: 'ShanghaiTech'
 description: ''
 twitter: ''
 
 # Contact (edit or remove options as required)
 
 email: chenjh2@shanghaitech.edu.cn
-phone: +86 18768116260
+phone: (021)20685662
 address:
   street: SIST 3#520, 393 Middle Huaxia Road
   city: Shanghai
-  region: SH
+  region: CN
   postcode: '201210'
   country: China
   country_code: CN
@@ -103,7 +103,7 @@ docs_section_pager: true
 sharing: true
 copyright_license:
   enable: false
-  allow_derivatives: false
+  allow_derivatives: true
   share_alike: true
   allow_commercial: false
   notice: 'This work is licensed under {license}'
@@ -158,3 +158,11 @@ cms:
 icon:
   pack:
     ai: false
+security:
+  csp:
+    policy: ''
+    report_only: false
+  permissions:
+    policy: >-
+      accelerometer=(), camera=(), geolocation=(), gyroscope=(),
+      magnetometer=(), microphone=(), payment=(), usb=()      

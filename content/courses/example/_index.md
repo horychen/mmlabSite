@@ -1,7 +1,7 @@
 ---
 title: 📊 Motor and motion control
 linkTitle: Motor
-summary: An example of using Wowchemy's Book layout for publishing online courses.
+summary: The course is arranged in a manner of "from theory to engineering". This is one essential core course to cover the four major courses, including electric machinery (steady state behaviors, winding design), ac machine transient analysis (mathematical modeling, numerical simulation), machine design (winding function, multi-phase machine theory, maxwell stress tensor), and motor control with an emphasis on engineering practices (controller tuning, inverter modeling). Lecture notes will be distributed online when ready.
 date: '2023-02-28'
 type: course
 ---
@@ -12,15 +12,20 @@ type: course
 
 ## What you will learn
 
-- Fundamental {{<hl>}}Python programming skills{{</hl>}}
-- {{<hl>}}Statistical concepts{{</hl>}} and how to apply them in practice
-- Gain experience with the {{<hl>}}Scikit{{</hl>}}, including data visualization with {{<hl>}}Plotly{{</hl>}} and data wrangling with {{<hl>}}Pandas{{</hl>}}
+- {{<hl>}}Python programming skills{{</hl>}}
+- {{<hl>}}Preparing homework in LaTeX{{</hl>}}
+- Mathematic modeling of machines from groud up (from the well known theories in both math and physics)
+- Control practices that are not taught in textbook.
 
 ## Program overview
 
-The demand for skilled data science practitioners is rapidly growing. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi.
+The course is arranged in a manner of "from theory to engineering". This is one essential core course to cover the four major courses, including electric machinery (steady state behaviors, winding design), ac machine transient analysis (mathematical modeling, numerical simulation), machine design (winding function, multi-phase machine theory, maxwell stress tensor), and motor control with an emphasis on engineering practices (controller tuning, inverter modeling). 
 
-## Courses in this program
+Students are gonna get their hands dirty learning Python programming and numerical simulation skills along the way.
+
+Lecture notes will be distributed online when ready.
+
+## Courses in this program **(under building)**
 
 {{< list_children >}}
 
@@ -28,7 +33,7 @@ The demand for skilled data science practitioners is rapidly growing. Lorem ipsu
 
 {{< mention "admin" >}}
 
-## FAQs
+## FAQs **(under building)**
 
 {{< spoiler text="Are there prerequisites?" >}}
 There are no prerequisites for the first course.

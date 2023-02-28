@@ -2,11 +2,11 @@
 title: Courses
 type: page
 
-view: 2
+view: 3
 
 header:
   caption: ""
   image: ""
 ---
 
-I teach the following courses:
+I am currently teaching one graduate course at the moment:
