@@ -25,6 +25,8 @@ design:
 
 **At m&m lab, we are interested in electric machines, maglev drives and robotics.**
 
+Lab members are encouraged to design and build things with the principal investigator (PI), covering electronic design, electromagnetic design, mechanical design, and observer/controller design.
+
 <!-- 下面这个可以给上面的cta_note加上按钮的装饰 -->
 <!--Custom spacing-->
 <!-- <div class="mb-3"></div> -->
