@@ -29,6 +29,10 @@ Lecture notes will be distributed online when ready.
 
 {{< list_children >}}
 
+## Lecture notes(test)
+
+[This is not lecture notes](wily1.pdf)
+
 ## Meet your instructor
 
 {{< mention "admin" >}}
