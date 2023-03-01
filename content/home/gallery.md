@@ -4,8 +4,7 @@
 widget: blank
 
 # Activate this widget? true/false
-active: false
-
+active: true
 
 # This file represents a page section.
 headless: true
@@ -17,7 +16,9 @@ title: Gallery
 subtitle:
 
 design:
-  columns: '2'
+  columns: '1'
 ---
 
-{{< gallery album="themes" >}}
+<!-- {{< gallery album="themes" >}} -->
+
+{{< gallery album="gallery" >}}

@@ -22,9 +22,12 @@ main:
   # - name: Publications
   #   url: '#featured'
   #   weight: 50
+  - name: Gallery
+    url: '#gallery'
+    weight: 60
   - name: Contact
     url: '#contact'
     weight: 70
   - name: CoursePage
     url: courses/
-    weight: 90
+    weight: 100
