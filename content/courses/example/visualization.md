@@ -1,8 +1,8 @@
 ---
-title: Visualization with DearPyGUI
-date: '2021-01-01'
+title: C3. Visualization with DearPyGUI
+date: '2023-03-02'
 type: book
-weight: 30
+weight: 40
 highlight: true
 ---
 

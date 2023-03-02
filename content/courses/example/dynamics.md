@@ -1,5 +1,5 @@
 ---
-title: Coding Motor Dynamics
+title: C2. Coding Motor Dynamics
 date: '2023-03-02'
 type: book
 weight: 40
