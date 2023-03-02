@@ -1,26 +1,26 @@
 ---
-title: Visualization  (under building)
+title: Visualization with DearPyGUI
 date: '2021-01-01'
 type: book
 weight: 30
 highlight: true
 ---
 
-Learn how to visualize data with Plotly.
+## Prerequisite
+
+1. Learn how to do numerical integration/simulaiton
+
+## Coding
+
+We are going to visualize the state transtion of the Lorenz system with aid of DearPyGUI.
 
 <!--more-->
 
-{{< icon name="clock" pack="fas" >}} 1-2 hours per week, for 8 weeks
-
-## Learn
-
+<!-- ## Learn
 {{< youtube hSPmj7mK6ng >}}
+ -->
 
 ## Quiz
-
-{{< spoiler text="When is a heatmap useful?" >}}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-{{< /spoiler >}}
 
 {{< spoiler text="Write Plotly code to render a bar chart" >}}
 ```python
