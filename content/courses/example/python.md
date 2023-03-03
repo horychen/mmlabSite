@@ -47,11 +47,73 @@ weight: 20
         - Run python codes
             - `python my_dearpygui_demo.py`
             - Have fun!
-    - You can check existing virtual environment by typing: `conda env list`
-2. Download and install [Visual Studio Code](https://code.visualstudio.com/download) before class.
-    - VS code is a popular editor for programming
-    - We will use its super-cool jupyter 
-    - Alternative editor: [sublime text 4](https://www.sublimetext.com/download)
+        - You can check existing virtual environment by typing: `conda env list`
+    - Jupyter notebook/lab
+        - Open cmd.exe and type `jupyter lab`. It will fire up jupyter lab in your default browser.
+        - I often use jupyter lab to do derivation verification and here is an example (you need to `pip install sympy`):
+            ```python
+            from sympy import *
+            from IPython.display import display, Latex
+
+            # display result without need of print (matlab like)
+            from IPython.core.interactiveshell import InteractiveShell; InteractiveShell.ast_node_interactivity = "all"
+
+            # use mathjax
+            init_printing(use_latex='mathjax')
+
+            # Define symbols
+            t, p, a, b, c, d, e = symbols('t, p, a, b, c, d, e')
+            L_σ = Symbol(r'L_\sigma')
+            M_σ = Symbol(r'M_\sigma')
+            i_alpha = Function(r'i_{\alpha}')(t)
+            i_beta  = Function(r'i_{\beta}')(t)
+            i_abs = Matrix(2, 1, [i_alpha, i_beta])
+            Theta = Function(r'\varTheta')(t)
+            Omega = Theta.diff(t)
+
+            # Display stuff
+            display(i_abs)
+            display(Theta, Omega)
+            a=100
+            a
+            100+a
+
+            # Rotation Matrix
+            P = Matrix(2,2,     [ cos(Theta), sin(Theta), \
+                                 -sin(Theta), cos(Theta)] )
+            P_inv = P.T
+            # Full Park transformation (power invariant)
+            T = sqrt(2/3)*Matrix(3,3,
+                                 [ cos(Theta),  cos(Theta-2*pi/3),  cos(Theta-4*pi/3), 
+                                  -sin(Theta), -sin(Theta-2*pi/3), -sin(Theta-4*pi/3),
+                                    1/sqrt(2),          1/sqrt(2),          1/sqrt(2)] )
+            T_inv = T.T
+            # Verify inverse equals transpose
+            display(simplify(T*T_inv))
+            display(simplify(T_inv*T))
+
+            # Matrix
+            Labcσs = Matrix(3,3, [L_σ, M_σ, M_σ, \
+                                  M_σ, L_σ, M_σ, \
+                                  M_σ, M_σ, L_σ] )
+            display(Labcσs)
+            Ldqnσs = T * Labcσs * T_inv
+            display(simplify(Ldqnσs))
+
+            # LaTeX
+            latex(simplify(Ldqnσs))
+            ```
+        - `ctrl+enter` to execute and stay at current block.
+        - `shift+enter` to execute and move to next block.
+
+2. Download and install [Visual Studio Code](https://code.visualstudio.com/download) before class. VS code is a popular editor for programmers.
+    - **You need to install extension for Python**
+    - We can then take advantage of its super-cool jupyter notebook compatibility.
+        - ~~Option 1: to activate a regular jupyter notebook, press `ctrl+shift+p`, type `create: new jupyter notebook`.~~
+        - Option 2: use the magic command `#%%` in your regular .py file.
+            - `ctrl+enter` to execute and stay at current block.
+            - `shift+enter` to execute and move to next block.
+    - Alternative editor I very like is [sublime text 4](https://www.sublimetext.com/download)
 
 ## C1.2. Outline
 
