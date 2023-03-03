@@ -131,10 +131,13 @@ numba加速
 框架和电机模型分开
  -->
 
+## C1.3. My Python Tutorials
+
+[Donwload jupyter notebook .ipynb file here.](https://github.com/horychen/ee275/blob/master/python_tutorial_cjh.ipynb).
 
 
-
-## C1.3. Learn Python in one video by Derek Banas (need access to Youtube)
+## C1.?. Learn Python in one video by Derek Banas 
+(need access to Youtube)
 {{< youtube N4mEzFDjqtA >}}
 
 
@@ -151,7 +154,7 @@ numba加速
 
 
 
-## C1.4. Quiz
+## C1.?. Quiz
 
 {{< spoiler text="What is the difference between lists and tuples?" >}}
 Lists
