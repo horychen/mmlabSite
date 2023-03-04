@@ -10,10 +10,12 @@ type: course
 
 {{< toc hide_on="xl" >}}
 
+{{< cta cta_text="Begin the course" cta_link="python" >}}
+
 ## What you will learn
 
-- {{<hl>}}Python programming skills{{</hl>}}
-- {{<hl>}}Preparing homework in LaTeX{{</hl>}}
+- {{<hl>}}Python{{</hl>}} programming skills
+- Preparing homework in {{<hl>}}LaTeX{{</hl>}}
 - Mathematic modeling of machines from groud up (from the well known theories in both math and physics)
 - Control practices that are not taught in textbook.
 
@@ -46,5 +48,3 @@ There are no prerequisites for the first course.
 {{< spoiler text="How often do the courses run?" >}}
 Continuously, at your own pace.
 {{< /spoiler >}}
-
-{{< cta cta_text="Begin the course" cta_link="python" >}}

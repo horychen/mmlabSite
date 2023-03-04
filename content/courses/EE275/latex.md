@@ -4,6 +4,8 @@ date: '2023-03-02'
 type: book
 weight: 5
 ---
+<!--more-->
+{{< icon name="clock" pack="fas" >}} 30 min
 
 ## C0.1. Texlive
 

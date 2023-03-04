@@ -5,7 +5,7 @@ type: book
 weight: 20
 ---
 
-<!--more-->
+<!--more--> <!-- This also prevent a abstract appearing in CoursePage -->
 
 {{< icon name="clock" pack="fas" >}} 15 min
 

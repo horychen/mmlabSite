@@ -5,12 +5,8 @@ type: book
 weight: 40
 math: true
 ---
-
-Introduction to statistics for data science.
-
 <!--more-->
-
-{{< icon name="clock" pack="fas" >}} 1-2 hours per week, for 8 weeks
+{{< icon name="clock" pack="fas" >}} 1-2 hours
 
 ## Learn
 

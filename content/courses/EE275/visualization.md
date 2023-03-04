@@ -5,6 +5,8 @@ type: book
 weight: 40
 highlight: true
 ---
+<!--more-->
+{{< icon name="clock" pack="fas" >}} 30 min
 
 ## Prerequisite
 
@@ -12,8 +14,12 @@ highlight: true
 
 ## Coding
 
-We are going to visualize the state transtion of the Lorenz system with aid of DearPyGUI.
+We are going to visualize the state transtion of the Lorenz system with aid of {{<hl>}}DearPyGUI{{</hl>}}.
 
+<!-- 
+{{ .Site.Pages }}
+{{ .Title }}
+ -->
 <!--more-->
 
 <!-- ## Learn
