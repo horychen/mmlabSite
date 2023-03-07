@@ -21,7 +21,7 @@ type: course
 
 ## Program overview
 
-The course is arranged in a manner of "from theory to engineering". This is one essential core course to cover the four major courses, including electric machinery (steady state behaviors, winding design), ac machine transient analysis (mathematical modeling, numerical simulation), machine design (winding function, multi-phase machine theory, maxwell stress tensor), and motor control with an emphasis on engineering practices (controller tuning, inverter modeling). 
+The course is arranged in a manner of “from theory to engineering”. This is one essential core course to cover the four major courses, including electric machinery (steady state behaviors, winding design), ac machine transient analysis (winding function, mathematical modeling, numerical simulation), machine design (advanced star of slots plot, multi-phase machine theory, maxwell stress tensor), and motor control (with an emphasis on engineering practices, e.g., system identification, commissioning, controller tuning, disturbance observer, inverter modeling).
 
 Students are gonna get their hands dirty learning Python programming and numerical simulation skills along the way.
 

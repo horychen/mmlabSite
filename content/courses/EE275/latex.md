@@ -39,3 +39,11 @@ My tips are valid for WinEdt 10 and are not tested for WinEdt 11.
 
 [Overleaf](https://www.overleaf.com/) provides you web browser based editor and compiler experience.
 If you are IEEE member, you can use the full capability of overleaf including collaborate with multiple authors and git service.
+
+YOU CAN LEARN LaTeX by going through [the documentation of Overleaf](https://www.overleaf.com/learn),
+or of course there is a ["Learn LaTeX in one video" video by Derek Banas](https://www.youtube.com/watch?v=VhmkLrOjLsw).
+
+{{< youtube VhmkLrOjLsw >}}
+
+
+
