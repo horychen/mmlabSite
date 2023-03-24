@@ -33,7 +33,7 @@ item:
   organization: "Graduate/undergraduate (SIST Curriculum)"
   organization_url: "https://sist.shanghaitech.edu.cn/sist_en/3905/list.htm"
   title: EE275 electric motor and motion control
-  url: "https://faculty.sist.shanghaitech.edu.cn/chenjh/courses/example/"
+  url: "https://faculty.sist.shanghaitech.edu.cn/chenjh/courses/ee275/"
 # - certificate_url: https://www.edx.org
 #   date_end: ""
 #   date_start: "2021-01-01"
