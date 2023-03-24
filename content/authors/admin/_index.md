@@ -3,8 +3,8 @@
 title: Chen, Jiahao 陈 嘉豪
 
 # Full name (for SEO)
-# first_name: Jiahao
-# last_name: Chen
+first_name: Jiahao
+last_name: Chen
 
 # Status emoji
 # status:
@@ -99,7 +99,9 @@ highlight_name: true
 ---
 
 
-Since December 2022, Dr. Chen has been a tenure-track Assistant Professor at School of Information Science and Technology, ShanghaiTech University. He serves as the director of m&m lab and teaches undergraduate course **"Introduction to Control"** and graduate course **"Electric Motor and Motion Control"**.
+Since December 2022, Dr. Chen has been a tenure-track Assistant Professor with School of Information Science and Technology (SIST). 
+He is the director of m&m lab and teaches undergraduate course **"Introduction to Control"** and graduate course **"Electric Motor and Motion Control"**.
+Before joining ShanghaiTech University, he has worked at University of Wisconsin-Madison, WI, USA during 2018--2019 and Nanyang Technoglogical University, Singapore during 2020--2022.
 Dr. Chen has been sharing his codes for sensorless motor control simulation and bearingless motor optimization since 2019.
 {style="text-align: justify;"}
 

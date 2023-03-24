@@ -26,6 +26,9 @@ We are going to visualize the state transtion of the Lorenz system with aid of {
 {{< youtube hSPmj7mK6ng >}}
  -->
 
+[Lorenz System](https://en.wikipedia.org/wiki/Lorenz_system#:~:text=The%20Lorenz%20system%20is%20a,solutions%20of%20the%20Lorenz%20system.)
+
+
 ## Quiz
 
 {{< spoiler text="Write Plotly code to render a bar chart" >}}
